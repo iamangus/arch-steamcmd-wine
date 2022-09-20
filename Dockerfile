@@ -4,6 +4,8 @@ ENV WINEARCH=win64
 ENV WINEDEBUG=-all
 ENV WINEPREFIX=/home/steam/wineserver
 
+ENV USER=root
+
 RUN \
   # update
   pacman -Syyu --noconfirm && \
