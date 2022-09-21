@@ -4,7 +4,7 @@ ENV WINEARCH=win64
 ENV WINEDEBUG=-all
 ENV WINEPREFIX=/home/steam/wineserver
 
-ENV USER=root
+USER root
 
 RUN \
   # update
